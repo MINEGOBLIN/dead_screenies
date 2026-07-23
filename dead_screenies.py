@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 from pathlib import Path
-from shutil import make_archive, move, rmtree
-import argparse, os, re
+from shutil import move
+import argparse, re
 
 """
 Python script that deletes unused screenshots (aka 'Dead Screenies') inside an obsidian vault
